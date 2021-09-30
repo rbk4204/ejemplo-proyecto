@@ -1,0 +1,96 @@
+*{
+	margin:0px;/*para que no exista ningun tipo de margen*/
+	padding: 0px;/*margen interior dentro de una caja*/
+}
+
+body{
+	background: antiquewhite;/*color de fondo*/
+	font-family: Arial, Helvetica, sans-serif;/*tipo de letra*/
+
+}
+
+#container{
+	/*width: 70%*/
+	width:1100px;
+	margin: 0px auto;
+	border:1px solid pink;/*contorno del cuadro*/
+}
+
+header{
+	background: palegreen;/*color de la barra de inicio*/
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;/*centro el titulo*/
+	line-height: 100px;/*la altura de la caja heigt, lo alinea*/
+	color: sienna;/*color de las letras del titulo*/
+	border-bottom: 3px dashed black; /*agrega borde en la lide debajo del titulo*/
+	}
+
+	nav{
+		background: lightpink;
+		height: 50px;
+		border-bottom: 1px black solid;/*borde de abajo a el menu*/
+	}
+
+	nav ul li{
+		float: left;
+		list-style: none;
+		margin: 10px;
+		line-height: 30px;/*centrar los enlaces*/
+
+	}
+
+	.clearfix{
+		clear: both;/*para que los elementos de tituolos y textos no suban*/
+
+	}
+
+	#content{  
+		/* contenido*/
+		float: left;
+		width: calc(80% - 80px);
+		min-height: 500px;
+		background: ivory;/*color de fondo del contenido*/
+		padding: 40px;
+
+}
+
+.article{ 
+	color: black;/*letras de los contenidos*/
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid pink;/*la linea para dividir los titulos con el texto*/
+}
+
+.article:first-child{
+	padding-top: 10px;
+	border-top: 1px solid black;/*color de la linea esa de mero arriba*/
+}
+
+.article h2{
+	font-size: 30px;/*cambia el tamaño de la letra*/   
+}
+
+	aside{ 
+		/*barra lateral*/
+		color: mediumpurple ; 
+		float: right;
+		width: calc(20% - 20px);
+		background: antiquewhite;/*color de fondo*/
+		min-height: 500px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 20px;
+}
+	footer{
+		background:	black;
+		color: white;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+
+	}
+
+
+	
